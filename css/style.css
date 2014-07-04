@@ -1,0 +1,45 @@
+pre {
+	font-size: 12px;
+	line-height: 12px;
+	width: 728px;
+	margin: auto;
+	border: 10px solid #FFE4B5;
+	padding: 10px;
+	border-radius: 10px;
+	font-family: "Droid Sans Mono", "Lucida Console", "Andale Mono", "Courier New", "Courier", monospace;
+}
+
+a.back-home {
+	color: red;
+}
+
+div.box {
+	width: 280px;
+	padding: 5px;
+	/*float: left;*/
+	position: absolute;
+
+}
+
+div.box .innerBox {
+	border: 10px solid #FFE4B5;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.clear {
+	clear: both;
+}
+
+div.box h2{
+	text-align: center;
+}
+
+div.box a {
+	text-decoration: none;
+}
+
+.grid-gallery {
+	position: relative;
+	margin: 15px auto;
+}
