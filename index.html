@@ -9,9 +9,12 @@ layout: default
     {% for post in site.posts %}
     <div class = "box">
       <div class="innerBox">
-        <h2 id="{{ category[0] }}-ref" class="hat_title decode">{{ post.title }}</h2>
+        {{ post.content | split:'<!--break-->' | first }}
         <a href="{{ post.clickUrl }}" target="_blank">
           <img src="{{post.imgUrl}}" alt="{{post.keyword}}"></a>
+          <div class = "read_more">
+          <a class="fa fa-link" href="{{ site.url }}{{ post.url }}"> 去围观</a>
+        </div>
       </div>
     </div>
     {% endfor %}

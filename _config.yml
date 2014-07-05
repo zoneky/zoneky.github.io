@@ -1,6 +1,6 @@
-name: 搜奇买-创意礼品大搜罗
+name: 搜奇买-创意物品大搜罗
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 permalink: /:year/:month/:title/
 JB :
   version : 0.3.0
@@ -11,6 +11,6 @@ JB :
     provider : baidu
   sharing :
     provider : baidu
-url: 
+url: http://zoneky.github.io/
 author:
     name: Kayson Li

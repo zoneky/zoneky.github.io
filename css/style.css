@@ -1,3 +1,7 @@
+body {
+	font-family: 微软雅黑,'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
 pre {
 	font-size: 12px;
 	line-height: 12px;
@@ -25,6 +29,19 @@ div.box .innerBox {
 	border: 10px solid #FFE4B5;
 	border-radius: 10px;
 	overflow: hidden;
+	padding: 5px;
+}
+
+.innerBox img {
+	width: 100%;
+}
+
+.innerBox h1 {
+	font-size: 20px;
+}
+
+.innerBox p {
+	text-indent: 2em;
 }
 
 .clear {
@@ -42,4 +59,16 @@ div.box a {
 .grid-gallery {
 	position: relative;
 	margin: 15px auto;
+}
+
+.content {
+	width: 600px;
+}
+
+.content p {
+	text-indent: 2em;
+}
+
+.read_more a {
+	color: red;
 }
