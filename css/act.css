@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 微软雅黑;
+}
+ul {
+    list-style: none;
+}
+.center {
+    width: 960px;
+    margin: 0 auto;
+}
+ul p {
+    line-height: 180px;
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 20px;
+}
+li {
+    margin-bottom: 20px;
+}
+a.title {
+    font-weight: bold;
+}
+.call {
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+@media screen and (max-width: 960px) {
+    .pc {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
+}
+@media screen and (min-width: 961px) {
+    .mobile {
+        display: none;
+    }
+    .pc {
+        display: block;
+    }
+}
